@@ -1,5 +1,5 @@
 import react from "react";
-import Image from "../../images/covid.jpg"
+import Image from "../../images/COVID.png"
 import Google from "../../images/google.png"
 
 import './signup.css'
@@ -14,7 +14,7 @@ return (
                 <img src={Image}/>
             </div>
             <div className="col-2">
-                <h2>Let's start Today</h2>
+                <h2>Let's Start Today</h2>
                 <span>Already have an account? <a href="#"> Login  </a></span>
                 <a href="" className="google-link">
                     <img src={Google} /> Continue with Google

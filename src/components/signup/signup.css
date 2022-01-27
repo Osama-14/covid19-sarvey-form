@@ -16,16 +16,19 @@
   align-items: center;
   justify-content: center;
   padding: 5%;
+  overflow: hidden;
 }
 .signup-box {
   display: flex;
   align-items: center;
   width: 100%;
   max-width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .col-1,.col-2 {
   flex-basis: 50%;
-  flex-grow: 1;
+  flex-wrap: wrap;
 }
 .col-1 img {
   width: 100%;
